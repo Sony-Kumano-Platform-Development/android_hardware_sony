@@ -10,7 +10,7 @@ import android.hardware.display.ColorDisplayManager
 import android.provider.Settings
 import android.util.Log
 
-import com.android.internal.derp.hardware.LiveDisplayManager
+import org.derpfest.hardware.LiveDisplayManager
 
 import vendor.semc.hardware.display.V2_0.IDisplay
 import vendor.semc.hardware.display.V2_0.IDisplayCallback

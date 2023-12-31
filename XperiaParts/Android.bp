@@ -16,7 +16,8 @@ android_app {
         "org.lineageos.settings.resources",
         "vendor.semc.hardware.display-V2.0-java",
         "vendor.semc.hardware.display-V2.1-java",
-        "vendor.semc.hardware.display-V2.2-java"
+        "vendor.semc.hardware.display-V2.2-java",
+        "framework-derpfest.static"
     ],
 
     optimize: {
