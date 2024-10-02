@@ -17,11 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
-
-ifeq ($(SOONG_CONFIG_android_hardware_audio_run_64bit), true)
-LOCAL_MULTILIB := 64
-endif
-
 LOCAL_SHARED_LIBRARIES := \
     audio.primary.$(TARGET_BOARD_PLATFORM) \
     libaudioroute \
